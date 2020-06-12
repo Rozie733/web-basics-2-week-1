@@ -1,99 +1,122 @@
+/* Example Challenge
+ * Print out "hello world" in the console
+ *
+ * Steps:
+ * 1. Use `console.log` to print out "hello world"
+ *
+ * Example Output: "hello world"
+ */
 
-//------------------------ Example Question ---------------------------
-//Write a function that squares two numbers and appends the value into the htmlTarget1 variable. Run your function on the right side of the answer 1 variable so that it outputs in your browswer.
+console.log('hello world')
 
-// this is your function called square. It takes a single parameter, number, and returns that values times itself.
-const square = (number) => {
-  return number * number
-}
+/* Challenge #1
+ * Create a variable and print the value
+ *
+ * Steps:
+ * 1. Create a variable and assign it any value
+ * 2. Use `console.log` to print out your variable
+ *
+ * Example Output: n/a
+ */
 
-// this is your answer variable, on the right side we are running your square function and passing in a single arugment, the number 12.
-const answer = square(12)
-// here we are printing out the answer in the console so we can check it out. (Command + Shift + J on a mac)
-console.log('answer', answer)
+// TODO: ADD CODE HERE
 
-// This will be given to you for each question (for now). For each question. But here is how it works. we are setting the htmlTarget variable to be the result of an item in our DOM (the html) that has an id of 'a-1'. On the next line of code we are running a built in javascript function innerHTML and replacing the contents of whatever is inside of 'a-1' with the variable we previously declared "answer1"
+/* Challenge #2
+ * Create variables for your first and last name then print your full name
+ *
+ * Steps:
+ * 1. Create a variable called `firstName` and assign your first name as the string value
+ * 2. Create a variable called `lastName` and assign your last name as the string value
+ * 3. Use `console.log` to print out your full name (make sure there's a space!)
+ *
+ * Example Output: "Elizabeth Thompson"
+ */
 
-const htmlTarget = document.getElementById('a')
-htmlTarget.innerHTML = answer
+// TODO: ADD CODE HERE
 
+/* Challenge #3
+ * Calculate the total price rounded to two decimals
+ *
+ * Steps:
+ * 1. Create a variable called `price` and assign a float value (ex. 9.98)
+ * 2. Create a variable called `quantity` and assign an integer value (ex. 5)
+ * 3. Create a variable called `total` and assign the value of `price` multiplied by `quantity`
+ * 4. Use `console.log` to print out the `total` (rounded to the nearest two decimals)
+ *
+ * Example Output: "$49.90"
+ */
 
+// TODO: ADD CODE HERE
 
-//------------------------ Question 1 ---------------------------
-//Write a function that gives you the area of a triangle with height 15 and width 10. Run your function on the right side of the answer 2 variable so that it outputs in your browswer.
-//create a function here called 'calculateTriangleArea' and give it the correct parameters to use and have it return the solution. Area of a triagnle is 1/2 length * width or 1/2 height * width
-calculateTriangleArea = () => {
-  return
-}
+/* Challenge #4
+ * Declare a variable and conditionally assign it a value
+ *
+ * Steps:
+ * 1. Create a variable called `weather` and assign "Rainy" as the string value
+ * 2. Declare a variable called `message` and don't assign it a value
+ * 3. Create a conditional statement that checks if `weather` is equal to "Sunny"
+ * 4. If `weather` meets the condition above, then set `message` equal to "Yay! It's sunny outside"
+ * 5. Add an `else` clause that sets `message` equal to "Aww! It's not sunny outside"
+ * 6. Use `console.log` to print out the value of `message`
+ *
+ * Example Output: "Aww! It's not sunny outside"
+ */
 
-// set const answer1 = to your function and pass required arguments into your function
-const answer1 = calculateTriangleArea()
-console.log('answer1', answer1)
+// TODO: ADD CODE HERE
 
-const htmlTarget1 = document.getElementById('a-1')
-htmlTarget1.innerHTML = answer1
+/* Challenge #5
+ * Create a function that returns any string
+ *
+ * Steps:
+ * 1. Create a function called `myFunction` using the function keyword
+ * 2. Add a return statement in your function which returns a random string
+ * 3. Use `console.log` to print out the output of `myFunction()`
+ *
+ * Example Output: "I called a function!"
+ */
 
+// TODO: ADD CODE HERE
 
+/* Challenge #6
+ * Rewrite the function in Challenge #5 as an arrow function
+ *
+ * Steps:
+ * 1. Create a function called `myArrowFunction` using the arrow syntax
+ * 2. Add a return statement in your function which returns a random string
+ * 3. Use `console.log` to print out the output of `myArrowFunction()`
+ *
+ * Example Output: "I called an arrow function!"
+ */
 
-//------------------------ Question 2 ---------------------------
-//Write a function that recives three mumber as parameters and evaluates each of these ones to return the highest number
-//hint: remember condicional statements and comparison operators
+// TODO: ADD CODE HERE
 
-//@brief read the numbers and determinate the highest number
-//@param {number} number1 - first number
-//@param {number} number2 - second number
-//@param {number} number3 - third number
-//@return {number} the highest number
+/* Challenge #7
+ * Create a function that accepts a string argument and returns it in all uppercase
+ *
+ * Steps:
+ * 1. Create a function called `stringToUpper`
+ * 2. Add a parameter called `str` in your function signature
+ * 3. Add a return statement in your function which returns the input string in all uppercase letters
+ * 4. Use `console.log` to print out the output of `stringToUpper(str)`
+ *
+ * Example Output: "WHY AM I SCREAMING"
+ */
 
-maxNumber = () => {
-  return
-}
+// TODO: ADD CODE HERE
 
-// we are going to follow the process below for the remaining questions, but changing the numbers of the answers according to each of the question's number
-// answer2 is the variable that will save the return value of the question two from the previos function (maxNumber())
-const answer2 = maxNumber()
-console.log('answer2', answer2)
+/* Challenge #8
+ * Create a function that accepts a number argument and returns double its value
+ *
+ * Steps:
+ * 1. Create a function called `multiplyByTwo`
+ * 2. Add a parameter called `number` in your function signature
+ * 3. Add a return statement in your function which returns `number` times two
+ * 4. Create a variable called `num1` and assign it to the result of `multiplyByTwo(1)`
+ * 5. Create a variable called `num2` and assign it to the result of `multiplyByTwo(5)`
+ * 6. Create a variable called `num3` and assign it to the result of `multiplyByTwo(10)`
+ * 7. Use `console.log` to print out the value of `num1`, `num2`, and `num3`
+ *
+ * Example Output: 2, 10, 20
+ */
 
-const htmlTarget2 = document.getElementById('a-2')
-htmlTarget2.innerHTML = answer2
-
-
-
-//------------------------ Question 3 ---------------------------
-//Write a program that asks the user  (use the prompt function) for an integer number with more than 3 digits and makes the product of the number times the number's digits of the respective input.
-//if the input has less than 3 digits or is empty the program must display an alert telling the user "the number must has more than 3 digits" and throws the error to the console
-//hint: remember the prompt input return an string value and the return value must be a number, also you need to validate data
-//exmple: input= 12345 the number of digits is 5 and the return value is 61725
-
-//@brief capture the input and makes the productof the number times number's digits
-//@param {number} number -> more than 3 digits
-//@return {number} produc -> the number times the number of digits
-productDigit = () => {
-  return
-}
-
-const answer3 = productDigit()
-console.log('answer3', answer3)
-
-const htmlTarget3 = document.getElementById('a-3')
-htmlTarget3.innerHTML = answer3
-
-
-
-//------------------------ Question 4 ---------------------------
-//Write a program that asks the user (use the prompt function) for two integer numbers and a third input where gives them the possibility to choose between computing the sum, computing the product the subtraction or division. The option selected for the user will be the return value of the function with the numbers and the operation performed.
-//expample of the return value: " n1 = 10 , n2 = 5 , operations performed: division, result: 2"
-//hint: remember multiple return statements and literal template
-
-//@brief capture the inputs and makes the computing process to return the required operation
-//@return {number}
-
- mathOperation= () => {
-  return
-}
-
-const answer4 =mathOperation()
-console.log('answer4', answer4)
-
-const htmlTarget4 = document.getElementById('a-4')
-htmlTarget4.innerHTML = answer4
+// TODO: ADD CODE HERE
